@@ -94,6 +94,8 @@ python shacl_generator.py
 
 ### Operating the GUI
 
+![GUI](./GUI.png)
+
 Step 1: Entity Extraction
 
 - Input:
