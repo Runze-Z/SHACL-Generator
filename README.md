@@ -32,6 +32,8 @@ The approach employs a step-by-step process using GPT-4o for high precision and 
 
 The system was evaluated using 12 different use cases with increasing complexity (where *n* is the number of types to be recognized, from n=1 to n=12). Each use case was processed five times to ensure statistical comparability. Key evaluation points include:
 
+![Evaluation](./Evaluation.png)
+
 - Average Initial Accuracy (x1): 93.8%
 - Average Accuracy after Feedback (x2): 92.1%
 - Average Processing Time per n: 1.8 seconds
