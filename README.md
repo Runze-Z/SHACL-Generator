@@ -18,7 +18,7 @@ The approach employs a step-by-step process using GPT-4o for high precision and 
 ## Methodology
 
 1. Entity Extraction: 
-   A natural language use case is provided as input. The system extracts relevant entities and concepts by mapping them to Schema.org classes.
+   A natural language Knowledge Base is provided as input. The system extracts relevant entities and concepts by mapping them to Schema.org classes. The LLM naturally retains the context from previous interactions, so it leverages all prior inputs during processing.
 
 2. Property Extraction: 
    The system then identifies corresponding properties and relationships for each extracted entity using few-shot or single-shot prompting techniques.
