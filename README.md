@@ -32,7 +32,7 @@ The approach employs a step-by-step process using GPT-4o for high precision and 
 
 The system was evaluated using 12 different use cases with increasing complexity (where *n* is the number of types to be recognized, from n=1 to n=12). Each use case was processed five times to ensure statistical comparability. Key evaluation points include:
 
-![Evaluation](Images/Evaluation.png)
+![Evaluation](Images/Evaluation.jpeg)
 
 - Average Initial Accuracy (x1): 93.8%
 - Average Accuracy after Feedback (x2): 92.1%
@@ -96,7 +96,7 @@ python shacl_generator.py
 
 ### Operating the GUI
 
-![GUI](Images/GUI_1.png)
+![GUI](Images/GUI_1.jpeg)
 
 Step 1: Entity Extraction
 
@@ -106,7 +106,7 @@ The main window displays a multi-line text box labeled "Input:" pre-filled with 
 - Action:
 Click the "Next" button. The application constructs a prompt and calls the OpenAI API to extract relevant entities (such as Person, Organization, Car) and their descriptions, which are then displayed on the screen.
 
-![GUI](Images/GUI_2.png)
+![GUI](Images/GUI_2.jpeg)
 
 Step 2: Property Extraction
 
@@ -115,7 +115,7 @@ The entity extraction results are displayed in the interface.
 - Action:
 Click the "Next Step" button. The system builds a new prompt to extract properties and relationships for each entity, then displays the output in a format similar to Schema.org descriptions.
 
-![GUI](Images/GUI_3.png)
+![GUI](Images/GUI_3.jpeg)
 
 Step 3: SHACL Document Generation
 
@@ -128,7 +128,7 @@ If the output is unsatisfactory, click the "Give Feedback" button to provide add
 - Exit:
 When you are satisfied with the final output, click the "Close" button to exit the application.
 
-![GUI](Images/GUI_4.png)
+![GUI](Images/GUI_4.jpeg)
 
 Additional Interactions
 
