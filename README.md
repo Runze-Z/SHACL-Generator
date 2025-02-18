@@ -96,7 +96,7 @@ python shacl_generator.py
 
 ### Operating the GUI
 
-![GUI](Images/GUI.png)
+![GUI](Images/GUI_1.png)
 
 Step 1: Entity Extraction
 
@@ -106,12 +106,16 @@ The main window displays a multi-line text box labeled "Input:" pre-filled with 
 - Action:
 Click the "Next" button. The application constructs a prompt and calls the OpenAI API to extract relevant entities (such as Person, Organization, Car) and their descriptions, which are then displayed on the screen.
 
+![GUI](Images/GUI_2.png)
+
 Step 2: Property Extraction
 
 - Viewing Results:
 The entity extraction results are displayed in the interface.
 - Action:
 Click the "Next Step" button. The system builds a new prompt to extract properties and relationships for each entity, then displays the output in a format similar to Schema.org descriptions.
+
+![GUI](Images/GUI_3.png)
 
 Step 3: SHACL Document Generation
 
@@ -123,6 +127,8 @@ The generated SHACL document is shown in a scrollable text area.
 If the output is unsatisfactory, click the "Give Feedback" button to provide additional instructions or clarifications. The system will update the result accordingly.
 - Exit:
 When you are satisfied with the final output, click the "Close" button to exit the application.
+
+![GUI](Images/GUI_4.png)
 
 Additional Interactions
 
