@@ -128,8 +128,6 @@ If the output is unsatisfactory, click the "Give Feedback" button to provide add
 - Exit:
 When you are satisfied with the final output, click the "Close" button to exit the application.
 
-![GUI](Images/GUI_4.jpeg)
-
 Additional Interactions
 
 - Give Feedback:
@@ -138,3 +136,7 @@ At any point, you can click "Give Feedback" to refine the prompt or output.
 Use the "Back" button to return to the previous screen and modify your input if necessary.
 - Close:
 Click "Close" to exit the program when finished.
+
+![GUI](Images/GUI_4.jpeg)
+
+
